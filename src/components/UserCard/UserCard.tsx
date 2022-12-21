@@ -19,7 +19,7 @@ export const UserCard = (props: UserCardProps) => (
       created={props.created}
     />
     <p
-      className={`${styles.bio}${props.bio ? '' : `${styles.empty}`}`}
+      className={styles.bio}
     >
       {props.bio || 'This profile has no bio'}
     </p>
